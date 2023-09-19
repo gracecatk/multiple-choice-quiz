@@ -46,10 +46,10 @@ const questions = [
     }
 ];
 
-const questionElement = document.getElementById("#question");
-const answerButtons = document.getElementById("#choice-buttons");
-const nextButton = document.getElementById("#next-btn");
-const answerButton = document.getElementById("#btn");
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("choice-buttons");
+const nextButton = document.getElementById("next-btn");
+const answerButton = document.getElementById("btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -69,7 +69,7 @@ function showQuestion(){
     question;
 
     currentQuestion.answers.forEach(answer => {
-        const button =document.createElement("button");
+        const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButton.appendChild(button);
@@ -98,7 +98,7 @@ function selectAnswer(e){
     }
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
-            button.classList.add("currect");
+            button.classList.add("correct");
         }
         button.disabled = true;
     });
@@ -130,5 +130,3 @@ nextButton.addEventListener("click", ()=>{
 } );
 
 startQuiz();
-//hi aaaaaaa
-//hsdhfjh
