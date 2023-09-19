@@ -9,14 +9,14 @@ In challenge 3, I created a multiple choice quiz using JavaScript.
 - [Contributions](#contributions)
 - [License](#license)
 ## Introduction
-This is a muktiple choice quiz about javascript. 
+This is a multiple choice quiz about javascript. 
 ## Features
-At the top of the page, you can click on the three options and they drop down to the matching part of the page.
+There are 5 questions, if you click the right one it turns green and wrong it turns red.
 ## Getting Started
-I started by Cleaning up my HTML, any changes i make that correlated to CSS i changed as i was going, and then i went and cleaned the CSS up. 
+Started with HTML & CSS and then moved to Javascript. 
 ## Usage
-This project seems to be used as a Socail Media Marketing company
+THis is a scored multiple choice quiz
 ## Contributions
-Contributions by me, check github pulls
+Contributions by me, check github pulls. My computer was messed up until office hours 9/18 so i was not able to make asd many commits as i wanted to. 
 ## License
 No License
